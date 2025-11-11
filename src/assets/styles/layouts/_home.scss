@@ -38,7 +38,13 @@ body {
     max-width: none;
   }
 }
-
+nav ul{
+  display: flex;
+  gap: 10px;
+}
+li {
+  list-style: none;
+}
 .staf-title {
   font-family: variables.$font-family-serif;
   font-size: 24px;
