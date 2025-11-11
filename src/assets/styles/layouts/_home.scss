@@ -45,6 +45,18 @@ nav ul{
 li {
   list-style: none;
 }
+.sobre_contenidor {
+  display: flex;
+  height: 200vh;
+}
+.sobre_contenidor .div1 {
+  background-color: e6dace;
+  width: 450px;
+}
+.sobre_contenidor .div1, .div2 {
+  height: 100%;
+  width: 450px;
+}
 .staf-title {
   font-family: variables.$font-family-serif;
   font-size: 24px;
