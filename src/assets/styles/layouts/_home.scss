@@ -61,6 +61,15 @@ li {
   height: 100vh;
   width: 450px;
 }
+.informacions {
+  position: fixed;
+  top: 70px;
+  left: 70px;
+  background-color: #fcfbf9;
+}
+.datos {
+  background-color: #e6dace;
+}
 .staf-title {
   font-family: variables.$font-family-serif;
   font-size: 24px;
