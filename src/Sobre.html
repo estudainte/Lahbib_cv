@@ -5,26 +5,43 @@
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
         <title>Staf Boilerplate</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
+<body>
+    
+    <div class="sobre_contenidor">
+        <div class="div1"></div>
+        <div class="div2"></div>
+    </div>
 
-<div class="sobre_contenidor">
-    <div class="div1"></div>
-    <div class="div2"></div>
-</div>
 <div class="informacions">
-     <include src="./views/head.html"></include>
-    <div class="datos">    
-        <img src="./assets/images/foto.jpg" alt="Foto">
-        <h1>Lahbib BOUCHTA</h1>
-        <h2>Tecnicó informático</h2>
+    <include src="./views/head.html"></include>
+   <div>
+        <div>
+            <div class="datos">    
+                <img src="./assets/images/foto.jpg" alt="Foto">
+                <h1>Lahbib BOUCHTA</h1>
+                <h2>Tecnicó informático</h2>
+            </div>
+            <div class="Redes">
+                <i class="fa fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-linkedin-in"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+        </div>
+        <div class="masInformacion">
+            <h2>Hola</h2>
+            <p>Esto es lo que soy y lo que hago</p>
+            <button>CURRICULUM</button>
+            <button>PROYECTOS</button>
+            <p>
+                Soy un tecnico informatico, con muchas experiencias, sé muachas lenguajes de programmacio.
+            </p>
+        </div>
     </div>
-    <div class="Redes">
-        <img src="assets/images/face.png" alt="face">
-        <img src="assets/images/x.avif" alt="x">
-        <img src="assets/images/linked.avif" alt="Linked In">
-        <img src="assets/images/insta.avif" alt="Instagram">
-    </div>
-    <include src="./views/footer.html"></include>
-</div>
+</div>  
+<include src="./views/footer.html"></include>
+</body>
 
 </html>

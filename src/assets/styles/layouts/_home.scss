@@ -38,9 +38,24 @@ body {
     max-width: none;
   }
 }
+.head h1 {
+  width: 80px;
+}
+.head p {
+  text-transform: uppercase;
+  width: 80px;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #fdfbf9;
+}
+
 nav ul{
   display: flex;
   gap: 10px;
+  height: 50px;
 }
 li {
   list-style: none;
@@ -62,13 +77,61 @@ li {
   width: 450px;
 }
 .informacions {
-  position: fixed;
+  position: fixed; 
   top: 70px;
   left: 70px;
+}
+.informacions > div {
+  display: flex;
+  gap: 10px;
   background-color: #fcfbf9;
 }
 .datos {
   background-color: #e6dace;
+  text-align: center;
+}
+.datos img {
+  width: 250px;
+  border-radius: 50%;
+}
+.Redes img {
+  width: 30px;
+}
+.masInformacion {
+  width: 450px;
+}
+.infos {
+  background-color: white;
+  margin: 30px;
+}
+.infos h3 {
+  background-color: #0050ff;
+  width: 250px;
+}
+.masInformacion button {
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 14px;
+  color: black;
+}
+.masInformacion button:first-of-type {
+  background-color: #0050ff;
+  color: white;
+}
+.masInformacion button:hover {
+  background-color: #0050ff;
+  color: white;
+}
+.fa {
+padding: 20px;
+font-size: 30px;
+width: 50px;
+text-align: center;
+text-decoration: none;
+}
+.fa-facebook {
+background: #3B5998;
+color: white;
 }
 .staf-title {
   font-family: variables.$font-family-serif;
