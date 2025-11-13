@@ -1,12 +1,26 @@
 <div class="head">
+    <span class="burger">&#9776;</span>
     <h1>LAHBIB BOUCHTA</h1>
     <p>/TENICO INFORMATICO</p>
     <nav>
+        <span class="Cerrar">X</span>
         <ul>
             <li><a href="./Sobre.html">SOBRE MÍ</a></li>
             <li><a href="./curriculum.html">CURRÍCULUM</a></li>
-            <li>PROYECTOS</li>
-            <li>CONTACTO</li>
+            <li><a href="./contacto.html">CONTACTO</a></li>
+            
         </ul>
     </nav> 
+    <script>
+        const menu = document.querySelector('.burger');
+        const cerra = document.querySelector('.Cerrar');
+        const nav = document.querySelector('nav');
+        menu.addEventListener('click', function(){
+            nav.style.left = "0";
+             nav.style.top = "0";
+        });
+        cerra.addEventListener('click', function() {
+            nav.style.left = "-1000px";
+        } )
+    </script>
 </div>

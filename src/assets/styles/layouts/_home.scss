@@ -38,12 +38,52 @@ body {
     max-width: none;
   }
 }
-.head h1 {
-  width: 80px;
+.burger, .Cerrar {
+  display: none;
+   font-size: 3rem;
 }
-.head p {
-  text-transform: uppercase;
-  width: 80px;
+.Cerrar {
+  position: relative;
+  right: 0;
+  text-align: right;
+ 
+  // font-weight:700;
+}
+@media (max-width: 480px) {
+    .burger, .Cerrar {
+      display: block;
+    }
+   body .head {
+     
+      display: inline-block;
+      nav {
+        display: block;
+        position: fixed;
+        left: -1000px;
+        height: 100%;
+        background-color: orange;
+      }
+      nav ul {
+        display: block;
+        width: 450px;
+      }
+      h1, p {
+        width: 100%;
+      }
+    }
+    .sobre_contenidor {
+      display: inline-block;
+  }
+    .informacions {
+    position: initial; 
+    div {
+      display: inline-block !important;
+      width: 100%;
+    }
+  }
+  }
+    .head p, h1 {
+  width:300px;
 }
 .head {
   display: flex;
@@ -100,13 +140,16 @@ li {
 .masInformacion {
   width: 450px;
 }
+.contenidoCurriculum {
+  background-color: #e6dace;
+}
 .infos {
   background-color: white;
   margin: 30px;
 }
 .infos h3 {
-  background-color: #0050ff;
-  width: 250px;
+  color: #0050ff;
+  width: 350px;
 }
 .masInformacion button {
   background-color: white;
