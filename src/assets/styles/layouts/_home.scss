@@ -48,8 +48,6 @@ a {
   position: relative;
   right: 0;
   text-align: right;
- 
-  // font-weight:700;
 }
 @media (max-width: 480px) {
     .burger, .Cerrar {
@@ -122,6 +120,7 @@ li {
   position: fixed; 
   top: 70px;
   left: 70px;
+  width: 900px;
 }
 .informacions > div {
   display: flex;
