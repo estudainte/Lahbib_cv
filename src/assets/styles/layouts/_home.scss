@@ -14,7 +14,9 @@ body {
   background-color: variables.$staf-bg;
   color: variables.$staf-corporate;
 }
-
+a {
+  text-decoration: none;
+}
 .staf-container {
   max-width: 800px;
   margin: auto;
